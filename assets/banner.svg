@@ -1,0 +1,78 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TranslateMate banner</title>
+  <desc id="desc">A deployment banner for TranslateMate, a macOS menu bar translator for replacing selected text or showing translations in a popup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="76" y1="52" x2="1504" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFDF5"/>
+      <stop offset="0.42" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EAF0FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="750" y1="124" x2="1422" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F7FF"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="118" y1="96" x2="550" y2="544" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#3158D4"/>
+    </linearGradient>
+    <filter id="softShadow" x="678" y="75" width="800" height="522" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.12 0 0 0 0 0.22 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="640" rx="44" fill="url(#bg)"/>
+  <path d="M0 540C164 474 291 474 436 535C599 604 774 625 976 544C1197 456 1340 432 1600 502V640H0V540Z" fill="#DFF7EA"/>
+  <path d="M1136 0C1084 88 1092 179 1162 252C1245 339 1380 343 1600 273V0H1136Z" fill="#E2E8FF"/>
+
+  <g transform="translate(112 98)">
+    <rect width="164" height="164" rx="42" fill="url(#brand)"/>
+    <circle cx="82" cy="82" r="49" fill="#F8FCFF" fill-opacity="0.96"/>
+    <circle cx="82" cy="82" r="49" stroke="#0F766E" stroke-width="8"/>
+    <path d="M33 82H131" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
+    <path d="M82 33C96 46 105 64 105 82C105 100 96 118 82 131" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
+    <path d="M82 33C68 46 59 64 59 82C59 100 68 118 82 131" stroke="#0F766E" stroke-width="7" stroke-linecap="round"/>
+    <rect x="20" y="16" width="64" height="44" rx="16" fill="#0F766E"/>
+    <text x="52" y="47" text-anchor="middle" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="white">A</text>
+    <rect x="82" y="104" width="64" height="44" rx="16" fill="#3158D4"/>
+    <text x="114" y="135" text-anchor="middle" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="white">文</text>
+  </g>
+
+  <text x="112" y="330" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="78" font-weight="800" fill="#0B1220" letter-spacing="0">TranslateMate</text>
+  <text x="116" y="389" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="30" font-weight="500" fill="#334155">Menu bar translator for macOS</text>
+  <text x="116" y="443" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#475569">Select text anywhere. Press a hotkey. Replace inline or read the popup translation.</text>
+
+  <g transform="translate(116 488)">
+    <rect width="178" height="44" rx="22" fill="#0F766E"/>
+    <text x="89" y="29" text-anchor="middle" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="white">OpenRouter</text>
+    <rect x="194" width="176" height="44" rx="22" fill="#E2E8F0"/>
+    <text x="282" y="29" text-anchor="middle" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#1E293B">Global hotkeys</text>
+    <rect x="386" width="176" height="44" rx="22" fill="#E2E8F0"/>
+    <text x="474" y="29" text-anchor="middle" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#1E293B">Keychain</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="742" y="124" width="680" height="396" rx="28" fill="url(#panel)"/>
+    <rect x="742.5" y="124.5" width="679" height="395" rx="27.5" stroke="#D6E0EE"/>
+    <rect x="782" y="164" width="600" height="44" rx="14" fill="#0F172A"/>
+    <circle cx="806" cy="186" r="6" fill="#F87171"/>
+    <circle cx="826" cy="186" r="6" fill="#FBBF24"/>
+    <circle cx="846" cy="186" r="6" fill="#34D399"/>
+    <text x="878" y="192" font-family="SF Mono, Menlo, monospace" font-size="16" font-weight="600" fill="#CBD5E1">Telegram message</text>
+
+    <rect x="792" y="242" width="438" height="70" rx="20" fill="#E2E8F0"/>
+    <text x="822" y="286" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#1E293B">Xin chào, tối nay bạn rảnh không?</text>
+    <rect x="1210" y="333" width="122" height="48" rx="24" fill="#0F766E"/>
+    <text x="1271" y="364" text-anchor="middle" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="white">⌘D</text>
+    <path d="M1096 355H1188" stroke="#0F766E" stroke-width="9" stroke-linecap="round"/>
+    <path d="M1174 334L1196 355L1174 376" stroke="#0F766E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="920" y="402" width="420" height="70" rx="20" fill="#DBEAFE"/>
+    <text x="950" y="446" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="24" font-weight="650" fill="#1D4ED8">Hi, are you free tonight?</text>
+  </g>
+</svg>

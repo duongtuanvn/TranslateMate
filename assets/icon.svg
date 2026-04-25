@@ -1,0 +1,52 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TranslateMate icon</title>
+  <desc id="desc">A macOS-style translator app icon with a globe, bilingual speech bubbles, and a quick action arrow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="142" y1="92" x2="894" y2="940" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3DDC97"/>
+      <stop offset="0.47" stop-color="#1F8A70"/>
+      <stop offset="1" stop-color="#2855C7"/>
+    </linearGradient>
+    <linearGradient id="card" x1="252" y1="210" x2="802" y2="818" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="301" y1="279" x2="723" y2="748" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#3166E0"/>
+    </linearGradient>
+    <filter id="shadow" x="91" y="81" width="850" height="884" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="28"/>
+      <feGaussianBlur stdDeviation="35"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.031 0 0 0 0 0.071 0 0 0 0 0.18 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="232" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="168" y="134" width="688" height="728" rx="178" fill="url(#card)" fill-opacity="0.96"/>
+  </g>
+
+  <circle cx="512" cy="507" r="210" fill="#F7FBFF"/>
+  <circle cx="512" cy="507" r="210" stroke="url(#accent)" stroke-width="30"/>
+  <path d="M302 507H722" stroke="url(#accent)" stroke-width="28" stroke-linecap="round"/>
+  <path d="M512 298C570 352 604 427 604 507C604 587 570 662 512 716" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M512 298C454 352 420 427 420 507C420 587 454 662 512 716" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M346 380C386 407 445 425 512 425C579 425 638 407 678 380" stroke="url(#accent)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M346 634C386 607 445 589 512 589C579 589 638 607 678 634" stroke="url(#accent)" stroke-width="24" stroke-linecap="round"/>
+
+  <rect x="218" y="206" width="266" height="172" rx="58" fill="#0F766E"/>
+  <path d="M323 372L284 430L398 378" fill="#0F766E"/>
+  <text x="351" y="321" text-anchor="middle" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="76" font-weight="800" fill="white">A</text>
+
+  <rect x="540" y="618" width="266" height="172" rx="58" fill="#3166E0"/>
+  <path d="M704 782L744 842L630 790" fill="#3166E0"/>
+  <text x="673" y="732" text-anchor="middle" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="76" font-weight="800" fill="white">文</text>
+
+  <path d="M382 769C436 800 502 813 572 800C641 788 700 751 739 699" stroke="#0B1220" stroke-opacity="0.18" stroke-width="24" stroke-linecap="round"/>
+  <path d="M742 699L732 765L674 729" stroke="#0B1220" stroke-opacity="0.18" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

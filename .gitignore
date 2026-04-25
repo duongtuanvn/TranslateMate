@@ -1,0 +1,49 @@
+# Build output
+build/
+*.app
+*.dmg
+*.xcarchive
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+
+# Personal config (nếu user tạo .env-like file riêng)
+.env
+.env.local
+config.local.sh
+secrets.sh
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Code-signing artifacts (private keys không bao giờ commit)
+*.p12
+*.pem
+*.key
+*.cer
+
+# Logs
+*.log
+logs/
